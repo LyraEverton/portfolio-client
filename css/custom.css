@@ -1,0 +1,176 @@
+body {
+    font-family: "Open Sans", Georgia, serif;
+    font-style: normal;
+}
+
+@media (min-width: 576px) {
+    .navbarLinks {
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbarLinks {
+        padding: 15px 10px 15px 0;
+    }
+}
+
+.navbarSpacing {
+    padding: 15px 40px;
+
+}
+
+@media (max-width: 576px) {
+    #navbarBrand {
+        color: #4C90FF;
+        padding: 15px 0 15px 10px;
+
+    }
+}
+
+@media (min-width: 576px) {
+    #navbarBrand {
+        color: #4C90FF;
+        padding: 15px 0 15px 100px;
+    }
+}
+
+#navbarWeight {
+    font-size: 0.938em;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.backgroundImageInitBody {
+    position: relative;
+    margin-top: 70px;
+}
+
+.h1Body {
+    position: absolute;
+    font-size: 42px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+.profileImage {
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: 20% 50%;
+}
+
+.intro-body {
+    font-size: 16px;
+    text-align: justify;
+    padding: 35px 35px;
+}
+
+.background-top {
+    height: 677px;
+    background: linear-gradient(#4d63b3, #c93582);
+    backdrop-filter: blur(500px);
+}
+
+.font-top {
+    font-family: 'Athelas Regular', Georgia, serif;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.intro-top {
+    font-family: 'Athelas Regular', Georgia, serif;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.spacing-sides {
+    padding: 16px 36px 64px 36px;
+    font-weight: 400;
+}
+
+.button-download-resume {
+    width: 155px;
+    height: 49px;
+    font-size: 24px;
+    border: solid 1px white;
+    color: white;
+
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.work-intro {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+}
+
+.spacing-initial-work-content {
+    margin-top: 96px;
+    margin-bottom: 64px;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.work-subtitle {
+    position: relative;
+    top: 16px;
+    margin-left: 3.5em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    color: #393939;
+}
+
+.work-description {
+    padding: 0 40px;
+    position: relative;
+    top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+}
+
+.work-link {
+    position: relative;
+    top: 50px;
+    margin-left: 2.5em;
+}
+
+.work-image {
+    position: relative;
+    top: 70px;
+
+}
+
+.work-breakline {
+    margin-left: 2.5em;
+    width: 70%;
+    position: relative;
+    top:60px;
+    border-width: 3px;
+    color: #9C9C9C;
+    background-color: #9C9C9C;
+}
+.work-flow{
+    position: relative;
+    top:70px;
+}
