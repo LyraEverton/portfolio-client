@@ -75,7 +75,7 @@ body {
 }
 
 .background-top {
-    height: 677px;
+    height: 800px;
     background: linear-gradient(#4d63b3, #c93582);
     backdrop-filter: blur(500px);
 }
@@ -97,12 +97,20 @@ body {
     font-weight: 400;
 }
 
-.button-download-resume {
+.button-download-resume-top {
     width: 155px;
     height: 49px;
     font-size: 24px;
-    border: solid 1px white;
-    color: white;
+    border: solid 1px #FFF;
+    color: #FFF;
+
+}
+.button-download-resume-footer {
+    width: 155px;
+    height: 49px;
+    font-size: 16px;
+    border: solid 1px #FFF;
+    color: #FFF;
 
 }
 
@@ -129,9 +137,6 @@ body {
 }
 
 .work-subtitle {
-    position: relative;
-    top: 16px;
-    margin-left: 3.5em;
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
@@ -140,9 +145,6 @@ body {
 }
 
 .work-description {
-    padding: 0 40px;
-    position: relative;
-    top: 25px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -162,15 +164,24 @@ body {
 }
 
 .work-breakline {
-    margin-left: 2.5em;
-    width: 70%;
-    position: relative;
-    top:60px;
-    border-width: 3px;
+    width: 75%;
     color: #9C9C9C;
     background-color: #9C9C9C;
 }
-.work-flow{
-    position: relative;
-    top:70px;
+.background-footer{
+    color: #FFF;
+    background-color: #2C2C2C;
+}
+.dihya{
+    font-family: 'Athelas Regular', Georgia, serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26.88px;
+}
+.hitMeUp{
+    font-family: 'Athelas', Georgia, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.88px;
 }
