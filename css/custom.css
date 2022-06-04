@@ -1,38 +1,320 @@
 body {
-    font-family: "Open Sans", Georgia, serif;
+    font-family: "Open Sans";
     font-style: normal;
 }
 
-@media (min-width: 576px) {
-    .navbarLinks {
-        padding-right: 100px;
-    }
+.container-fluid {
+    overflow: hidden;
 }
 
-@media (max-width: 576px) {
-    .navbarLinks {
-        padding: 15px 10px 15px 0;
-    }
-}
-
-.navbarSpacing {
-    padding: 15px 40px;
+.intro-top,
+.font-top,
+.button-resume {
+    font-family: 'Athelas Regular', Georgia, serif;
+    color: #FFF;
 
 }
 
-@media (max-width: 576px) {
-    #navbarBrand {
-        color: #4C90FF;
-        padding: 15px 0 15px 10px;
+/*COL / COL-SM*/
+@media (max-width: 767px) {
 
+    ul>li>a {
+        color: #393939 !important;
+    }
+
+    .intro-top {
+        font-size: 1.5rem;
+    }
+
+    .font-top {
+        font-size: 2rem;
+    }
+
+    .work-intro {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .work-subtitle {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        color: #393939;
+    }
+
+    .button-download-resume {
+        width: 155px;
+        height: 49px;
+        font-size: 1rem;
+        border: solid 1px #FFF;
+        color: #FFF;
+    }
+
+    .dihya,
+    .hitMeUp {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-size: 1.5rem;
+        line-height: 26.88px;
+    }
+
+    .dihya {
+        font-weight: 400;
+    }
+
+    .hitMeUp {
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .contactInfoFooter {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 33px;
+    }
+
+
+
+}
+
+/*COL-MD*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse {
+        background: none;
+    }
+
+    ul>li>a {
+        color: #FFF !important;
+    }
+
+    .intro-top {
+        font-size: 1.5rem;
+    }
+
+    .font-top {
+        font-size: 2rem;
+    }
+
+    .button-resume {
+        font-size: 1.5rem;
+    }
+
+    .button-download-resume {
+        width: 155px;
+        height: 49px;
+        font-size: 1.5rem;
+        border: solid 1px #FFF;
+        color: #FFF;
+    }
+
+    .work-intro {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    .aboutMe-intro {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .work-subtitle {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        color: #393939;
+    }
+
+    .dihya,
+    .hitMeUp {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-size: 1.5rem;
+        line-height: 26.88px;
+    }
+
+    .dihya {
+        font-weight: 400;
+    }
+
+    .hitMeUp {
+        font-style: italic;
+        font-weight: 700;
     }
 }
 
-@media (min-width: 576px) {
-    #navbarBrand {
-        color: #4C90FF;
-        padding: 15px 0 15px 100px;
+/*COL-LG*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    ul>li>a {
+        color: #FFF !important;
     }
+
+    .intro-top {
+        font-size: 1.5rem;
+    }
+
+    .font-top {
+        font-size: 2rem;
+    }
+
+    .button-resume {
+        font-size: 1.5rem;
+    }
+
+    .button-download-resume {
+        width: 155px;
+        height: 49px;
+        font-size: 1.5rem;
+        border: solid 1px #FFF;
+        color: #FFF;
+    }
+
+    .work-intro {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+
+    .aboutMe-intro {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .dihya,
+    .hitMeUp {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-size: 1.5rem;
+        line-height: 26.88px;
+    }
+
+    .dihya {
+        font-weight: 400;
+    }
+
+    .hitMeUp {
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+/*COL-XL*/
+@media (min-width: 1200px) {
+    ul>li>a {
+        color: #FFF !important;
+    }
+
+    .intro-top {
+        font-size: 2.6rem;
+    }
+
+    .font-top {
+        font-size: 3.9rem;
+    }
+
+    .button-resume {
+        font-size: 1.5rem;
+    }
+
+    .nav-button-style {
+        font-weight: 400;
+        font-size: 1.37rem;
+    }
+
+    .work-intro {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .work-title {
+        font-weight: 700;
+        font-size: 2.6rem;
+        line-height: 57px;
+    }
+
+    .work-subtitle {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+        color: #393939;
+    }
+
+    .aboutMe-intro {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .button-download-resume {
+        width: 155px;
+        height: 49px;
+        font-size: 1.5rem;
+        border: solid 1px #FFF;
+        color: #FFF;
+    }
+
+    .dihya,
+    .hitMeUp {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-size: 3.8rem;
+        line-height: 69.88px;
+    }
+
+    .dihya {
+        font-weight: 400;
+    }
+
+    .hitMeUp {
+        font-style: italic;
+        font-weight: 700;
+    }
+
+    .contactInfoFooter {
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 43px;
+    }
+
+}
+.subsection-navbar{
+    background-color: #F7F7F7;
+    border-top: #BDBDBD 1px solid;
+}
+
+
+.navbar-opened {
+    background: #FFF;
+}
+
+.secondSectionMenu {
+    background-color: #F7F7F7;
+    border-top: #BDBDBD 1px solid
 }
 
 #navbarWeight {
@@ -76,20 +358,46 @@ body {
 
 .background-top {
     height: 800px;
-    background: linear-gradient(#4d63b3, #c93582);
-    backdrop-filter: blur(500px);
+    background: url('../assets/background-top.png');
+    backdrop-filter: blur(5px);
 }
 
-.font-top {
-    font-family: 'Athelas Regular', Georgia, serif;
-    color: #FFF;
-    font-size: 2rem;
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    height: 800px;
+    width: 100%;
 }
 
-.intro-top {
+
+
+.font-top-resume-mainsec {
+    color: #000;
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.font-top-resume-subsec {
+    color: #000;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.font-resume {
     font-family: 'Athelas Regular', Georgia, serif;
-    color: #FFF;
-    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.88px;
+}
+
+.font-work-xp {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.24px;
 }
 
 .spacing-sides {
@@ -97,51 +405,13 @@ body {
     font-weight: 400;
 }
 
-.button-download-resume-top {
-    width: 155px;
-    height: 49px;
-    font-size: 24px;
-    border: solid 1px #FFF;
-    color: #FFF;
-
-}
-.button-download-resume-footer {
-    width: 155px;
-    height: 49px;
-    font-size: 16px;
-    border: solid 1px #FFF;
-    color: #FFF;
-
-}
-
 .to-uppercase {
     text-transform: uppercase;
-}
-
-.work-intro {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.2em;
 }
 
 .spacing-initial-work-content {
     margin-top: 96px;
     margin-bottom: 64px;
-}
-
-.work-title {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-}
-
-.work-subtitle {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 22px;
-    letter-spacing: 0.2em;
-    color: #393939;
 }
 
 .work-description {
@@ -168,20 +438,56 @@ body {
     color: #9C9C9C;
     background-color: #9C9C9C;
 }
-.background-footer{
+
+.work-breakline-100 {
+    width: 100%;
+    color: #9C9C9C;
+    background-color: #9C9C9C;
+}
+
+.previous-job-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.previous-job-subtitle {
+    font-weight: 400;
+    color: #393939;
+    font-size: 12px;
+    line-height: 16.34px;
+}
+
+.previous-job-company {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.previous-job-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.contacts-breakline {
+    width: 100%;
+    color: #FFF;
+    background-color: #FFF;
+}
+
+.background-footer {
     color: #FFF;
     background-color: #2C2C2C;
 }
-.dihya{
-    font-family: 'Athelas Regular', Georgia, serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 26.88px;
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
 }
-.hitMeUp{
-    font-family: 'Athelas', Georgia, serif;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26.88px;
+
+div>span[class*="font-top-resume-mainsec"]>a:visited {
+    color: #000;
 }
