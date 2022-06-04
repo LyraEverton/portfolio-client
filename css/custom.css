@@ -491,3 +491,8 @@ body {
 div>span[class*="font-top-resume-mainsec"]>a:visited {
     color: #000;
 }
+
+.contactFooter > div > a:link, a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
