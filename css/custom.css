@@ -75,14 +75,58 @@ body {
         font-weight: 700;
     }
 
-    .contactInfoFooter {
+    .contactInfoFooter:link,
+    .contactInfoFooter:visited {
+        color: #FFF;
+        text-decoration: none;
         font-weight: 400;
         font-size: 16px;
         line-height: 33px;
     }
 
+    .font-resume {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26.88px;
+    }
 
+    .font-work-xp {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+    }
 
+    .previous-job-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-subtitle {
+        font-weight: 400;
+        color: #393939;
+        font-size: 12px;
+        line-height: 16.34px;
+    }
+
+    .previous-job-company {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-college-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
 }
 
 /*COL-MD*/
@@ -91,8 +135,12 @@ body {
         background: none;
     }
 
-    ul>li>a {
+    ul>li>a[class*="indexPage"] {
         color: #FFF !important;
+    }
+
+    ul>li>a[class*="resumePage"] {
+        color: #393939 !important;
     }
 
     .intro-top {
@@ -157,12 +205,75 @@ body {
         font-style: italic;
         font-weight: 700;
     }
+
+    .bottom-shadow {
+        -webkit-box-shadow: 0 4px 6px -6px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222;
+    }
+
+    .font-resume {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26.88px;
+    }
+
+    .font-work-xp {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+    }
+
+    .previous-job-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-subtitle {
+        font-weight: 400;
+        color: #393939;
+        font-size: 12px;
+        line-height: 16.34px;
+    }
+
+    .previous-job-company {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-college-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+    .contactInfoFooter:link,
+    .contactInfoFooter:visited {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 33px;
+    }
 }
 
 /*COL-LG*/
 @media (min-width: 992px) and (max-width: 1199px) {
-    ul>li>a {
+
+    ul>li>a[class*="indexPage"] {
         color: #FFF !important;
+    }
+
+    ul>li>a[class*="resumePage"] {
+        color: #393939 !important;
     }
 
     .intro-top {
@@ -219,12 +330,74 @@ body {
         font-style: italic;
         font-weight: 700;
     }
+
+    .bottom-shadow {
+        -webkit-box-shadow: 0 4px 6px -6px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222;
+    }
+
+    .font-resume {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26.88px;
+    }
+
+    .font-work-xp {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+    }
+
+    .previous-job-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-subtitle {
+        font-weight: 400;
+        color: #393939;
+        font-size: 12px;
+        line-height: 16.34px;
+    }
+
+    .previous-job-company {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-job-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .previous-college-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+    .contactInfoFooter:link,
+    .contactInfoFooter:visited {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 33px;
+    }
 }
 
 /*COL-XL*/
 @media (min-width: 1200px) {
-    ul>li>a {
+    ul>li>a[class*="indexPage"] {
         color: #FFF !important;
+    }
+
+    ul>li>a[class*="resumePage"] {
+        color: #393939 !important;
     }
 
     .intro-top {
@@ -300,9 +473,72 @@ body {
         font-size: 2rem;
         line-height: 43px;
     }
+    .contactInfoFooter:link,
+    .contactInfoFooter:visited {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 2rem;
+        line-height: 43px;
+    }
+
+    .bottom-shadow {
+        -webkit-box-shadow: 0 4px 6px -6px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222;
+    }
+
+    .font-resume {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 70px;
+    }
+
+    .font-work-xp {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 42px;
+    }
+
+    .previous-job-title {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 42px;
+    }
+
+    .previous-job-subtitle {
+        font-weight: 400;
+        color: #393939;
+        font-size: 1.5rem;
+        line-height: 42px;
+    }
+
+    .previous-job-company {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 42px;
+    }
+
+    .previous-job-description {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 32.68px;
+    }
+
+    .previous-college-description {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 32.68px;
+    }
+
+    .footerMessage {
+        font-size: 1.5rem;
+    }
 
 }
-.subsection-navbar{
+
+.subsection-navbar {
     background-color: #F7F7F7;
     border-top: #BDBDBD 1px solid;
 }
@@ -386,20 +622,6 @@ body {
     font-weight: 300;
 }
 
-.font-resume {
-    font-family: 'Athelas Regular', Georgia, serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26.88px;
-}
-
-.font-work-xp {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27.24px;
-}
-
 .spacing-sides {
     padding: 16px 36px 64px 36px;
     font-weight: 400;
@@ -445,31 +667,6 @@ body {
     background-color: #9C9C9C;
 }
 
-.previous-job-title {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21.79px;
-}
-
-.previous-job-subtitle {
-    font-weight: 400;
-    color: #393939;
-    font-size: 12px;
-    line-height: 16.34px;
-}
-
-.previous-job-company {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21.79px;
-}
-
-.previous-job-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21.79px;
-}
-
 .contacts-breakline {
     width: 100%;
     color: #FFF;
@@ -492,7 +689,8 @@ div>span[class*="font-top-resume-mainsec"]>a:visited {
     color: #000;
 }
 
-.contactFooter > div > a:link, a:visited {
-    color: #FFF;
+.subsection-navbar>li>a:link,
+.subsection-navbar>li>a:visited {
+    color: #000;
     text-decoration: none;
 }
