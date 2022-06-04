@@ -16,7 +16,7 @@
             parameters = document.getElementById('menu-svg')
             if (isActive) {
                 document.getElementById('navbar').classList.add('navbar-opened');
-                document.getElementById('navbarBrandColor').src = "./assets/navbarBrand-resume.svg"
+                document.getElementById('navbarBrandColor').src = "./assets/navbarBrandBlueResume.svg"
                 parameters.setAttribute('fill', '#000')
                 isActive = false;
             } else {
@@ -54,12 +54,13 @@
                         <div class="collapse navbar-collapse w-100" id="navbarNav">
                             <ul class="navbar-nav nav ml-auto w-100 justify-content-end navbarLinks" id="navbarWeight">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link nav-button-style ps-5 ps-md-5 mt-2rem mt-md-0">
+                                    <a href="resume.html"
+                                        class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 indexPage">
                                         Resume <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link nav-button-style ps-5 ps-md-5 mt-md-0 mt-4">
+                                    <a href="#" class="nav-link nav-button-style ps-5 mt-md-0 mt-4 indexPage">
                                         <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block"
                                             alt="Dot" />
                                         Work
@@ -67,23 +68,26 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0">
+                                    <a href="#" class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 indexPage">
                                         About me <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
                                     </a>
                                 </li>
                                 <div class="mt-8 d-block d-sm-block d-md-none d-lg-none d-xl-none subsection-navbar">
                                     <li class="ps-5 mt-2-5rem">
-                                        <a><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share portfolio</a>
+                                        <a href=""><img src="./assets/shareIcon.svg" alt="Arrow" /> Share portfolio</a>
                                     </li>
                                     <li class="ps-5 mt-3">
-                                        <a><img src="./assets/whatsAppIconMenu.svg" class="" alt="Arrow" /> Send me a
+                                        <a href="https://api.whatsapp.com/send?phone=5511969171767"><img
+                                                src="./assets/whatsAppIconMenu.svg" alt="Arrow" /> Send me a
                                             whatsapp</a>
                                     </li>
                                     <li class="ps-5 mt-3">
-                                        <a><img src="./assets/mailIconMenu.svg" class="" alt="Arrow" /> Send a email</a>
+                                        <a href="mailto:lyranatalie@gmail.com"><img src="./assets/mailIconMenu.svg"
+                                                alt="Arrow" /> Send a email</a>
                                     </li>
                                     <li class="ps-5 mt-3 mb-11">
-                                        <a><img src="./assets/linkedinIconMenu.svg" class=" " alt="Arrow" />
+                                        <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
+                                                src="./assets/linkedinIconMenu.svg" alt="Arrow" />
                                             Linkedin</a>
                                     </li>
                                 </div>
@@ -290,15 +294,15 @@
                 </div>
                 <div class="row">
                     <div class="d-flex col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4
-                               offset-md-1 offset-lg-1 offset-xl-1
-                               justify-content-center justify-content-lg-end justify-content-sm-center
-                                mt-4">
-                        <img class="col-6 col-md-12 col-lg-8 col-xl-10 col-xxl-8" src="./assets/aboutMeImage.svg"
+                                   offset-md-1 offset-lg-0 offset-xl-1
+                                   justify-content-center justify-content-lg-end justify-content-sm-center
+                                    mt-4">
+                        <img class="col-6 col-md-12 col-lg-8 col-xl-10 col-xxl-7" src="./assets/aboutMeImage.svg"
                             alt="About Me Photo">
                     </div>
                     <div class="d-flex col-12 col-sm-10 col-md-6 col-lg-6 col-xl-6 
-                                offset-sm-1 offset-md-0
-                                mt-5 align-self-center">
+                                    offset-sm-1 offset-md-0
+                                    mt-5 align-self-center">
                         <p class="aboutMe-intro">
                             Holder of a bachelor&rsquo;s degree in Graphic Design and with 4 years of experience in the
                             creative
@@ -315,8 +319,10 @@
                     <div class="offset-sm-1 offset-md-1 offset-lg-1 offset-xl-1"></div>
                 </div>
                 <div class="row mt-3 mt-sm-3 mt-md-3 mt-lg-3">
-                    <div class="d-flex col-6 col-sm-10 col-md-3 col-lg-3 col-xl-3 
-                                offset-3 offset-sm-1 offset-md-6 offset-lg-6 offset-xl-5">
+                    <div
+                        class="d-flex col-6 col-sm-10 col-md-4 col-lg-4 col-xl-3 
+                                    offset-3 offset-sm-1 offset-md-5 offset-lg-4 offset-xl-5 
+                                    justify-content-sm-center justify-content-md-start">
                         <button class="button-download-resume btn btn-link text-decoration-none">
                             <img src="./assets/fileIcon.svg" alt="Download Resume" />
                             Resume</button>
@@ -325,26 +331,26 @@
                 </div>
                 <div class="row">
                     <div class="d-flex col-12 col-sm-10 col-md-8 col-lg-8 col-xl-8
-                                offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
-                                dihya mt-6">
+                                    offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
+                                    dihya mt-6">
                         <p>Do I have your attention?</p>
                     </div>
                     <div class="offset-sm-1 offset-md-7 offset-lg-2 offset-xl-2"></div>
                 </div>
                 <div class="row">
                     <div class="d-flex col-12 col-sm-10 col-md-4 col-lg-8 col-xl-8
-                                offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
-                                hitMeUp">
+                                    offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
+                                    hitMeUp">
                         <p>Hit me up</p>
                     </div>
                     <div class="offset-sm-1 offset-md-7 offset-lg-2 offset-xl-2"></div>
                 </div>
 
                 <div class="row pb-6 mt-3">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 
-                                offset-md-1 offset-lg-2 offset-xl-2 align-self-center contactFooter">
+                    <div class="col-12 col-sm-10 col-md-4 col-lg-4 col-xl-4 
+                                    offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2 align-self-center">
                         <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
-                                    justify-content-between">
+                                        justify-content-between">
                             <a href="https://api.whatsapp.com/send?phone=5511969171767">
                                 <img src="./assets/whatsAppIcon.svg" class="mt-01" alt="WhatsApp" />
                             </a>
@@ -360,7 +366,7 @@
                             <hr class="contacts-breakline mt-2 mt-sm-2">
                         </div>
                         <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
-                                    justify-content-between">
+                                        justify-content-between">
                             <a href="mailto:lyranatalie@gmail.com">
                                 <img src="./assets/mailIcon.svg" class="mt-01" alt="WhatsApp" />
                             </a>
@@ -375,7 +381,7 @@
                             <hr class="contacts-breakline mt-2 mt-sm-2">
                         </div>
                         <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
-                                    justify-content-between">
+                                        justify-content-between">
                             <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b">
                                 <img src="./assets/linkedInIcon.svg" class="mt-01" alt="WhatsApp" />
                             </a>
@@ -392,9 +398,10 @@
                         </div>
                     </div>
                     <div class="d-flex col-10 col-sm-12 col-md-6 col-lg-4 col-xl-4 
-                                offset-1 offset-sm-1 offset-md-1  offset-lg-2 offset-xl-2
-                                pb-4">
-                        <div class="d-flex col-sm-5 col-md-3 col-lg-3 col-xl-3 justify-content-sm-end align-self-end ">
+                                    offset-1 offset-sm-1 offset-md-1  offset-lg-1 offset-xl-1
+                                    pb-4">
+                        <div
+                            class="d-flex col-sm-5 col-md-3 col-lg-3 col-xl-8 justify-content-sm-end align-self-end footerMessage">
                             You have<br class="d-md-none"> reached the<br class="d-md-none"> footer,<br
                                 class="d-none d-md-block"> thanks for<br class="d-md-none"> stopping by 😊
                         </div>
@@ -403,7 +410,6 @@
                         </div>
                         <div class="offset-sm-1"></div>
                     </div>
-
                 </div>
             </div>
         </div>
