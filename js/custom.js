@@ -1,26 +1,11 @@
-/*let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-    scrollFunction();
-};
+var totalItems = $('.item').length;
+console.log(totalItems)
+var currentIndex = $('div.active').index() + 1;
 
-function scrollFunction() {
-    console.log(document.body.scrollTop)
-    console.log(document.documentElement.scrollTop)
-    if (
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-    ) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
+$('.num').html('' + currentIndex + '/' + totalItems + '');
 
-function backToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}*/
+$('#mainSlider').on('slid.bs.carousel', function () {
+    currentIndex = $('div.active').index() + 1;
+    $('.num').html('' + currentIndex + '/' + totalItems + '');
+});

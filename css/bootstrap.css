@@ -8574,8 +8574,20 @@ fieldset:disabled .btn {
   padding-bottom: 3rem !important;
 }
 
-.pb-6 {
+.pb-7 {
   padding-bottom: 4rem !important;
+}
+.pb-8 {
+  padding-bottom: 5rem !important;
+}
+.pb-9 {
+  padding-bottom: 6rem !important;
+}
+.pb-10 {
+  padding-bottom: 7rem !important;
+}
+.pb-11 {
+  padding-bottom: 8rem !important;
 }
 
 .ps-0 {

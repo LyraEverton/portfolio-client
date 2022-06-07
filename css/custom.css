@@ -15,6 +15,22 @@ body {
 
 }
 
+.font-color-39 {
+    color: #393939;
+}
+
+div[class*="referencesLink"]>a:link,
+div[class*="referencesLink"]>a:visited {
+    color: #000;
+}
+
+.num {
+    color: #393939;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+}
+
 /*COL / COL-SM*/
 @media (max-width: 767px) {
 
@@ -126,6 +142,73 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 21.79px;
+    }
+
+    /*Client Page*/
+    .font-clientName {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .font-clientSubtitle {
+        color: #393939;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .textSections {
+        color: #393939;
+        font-weight: 700;
+        line-height: 21.79px;
+    }
+
+    .zoom {
+        -webkit-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
+    }
+
+    .zoom:hover,
+    .zoom:active,
+    .zoom:focus {
+        /**adjust scale to desired size, 
+add browser prefixes**/
+        -ms-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        position: relative;
+        z-index: 100;
+    }
+
+    .footerImageInfo {
+        color: #8E8E8E;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 0.75rem;
+        line-height: 16.34px;
+    }
+
+    .questionOne {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 32.68px;
+    }
+
+    .confidentialBox {
+        background-color: #F2F2F2;
+        border-radius: 8px;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 16.34px;
     }
 }
 
@@ -255,6 +338,7 @@ body {
         font-size: 16px;
         line-height: 21.79px;
     }
+
     .contactInfoFooter:link,
     .contactInfoFooter:visited {
         color: #FFF;
@@ -262,6 +346,89 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 33px;
+    }
+
+    /*Client Page*/
+    .font-clientName {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 50px;
+
+    }
+
+    .font-clientSubtitle {
+        color: #393939;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .textSections {
+        color: #393939;
+        font-weight: 700;
+        font-size: 1.10rem;
+        line-height: 20px;
+    }
+
+    .zoom {
+        -webkit-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
+    }
+
+    .zoom:hover,
+    .zoom:active,
+    .zoom:focus {
+        /**adjust scale to desired size, 
+add browser prefixes**/
+        -ms-transform: scale(2.5);
+        -moz-transform: scale(2.5);
+        -webkit-transform: scale(2.5);
+        -o-transform: scale(2.5);
+        transform: scale(2.5);
+        position: relative;
+        z-index: 100;
+    }
+
+    .footerImageInfo {
+        color: #8E8E8E;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 16.34px;
+    }
+
+    .questionOne {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 32.68px;
+    }
+
+    .confidentialBox {
+        background-color: #F2F2F2;
+        border-radius: 8px;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 16.34px;
+    }
+    .moreProjects {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 70px;
+    }
+    .nextProject {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 }
 
@@ -380,6 +547,7 @@ body {
         font-size: 16px;
         line-height: 21.79px;
     }
+
     .contactInfoFooter:link,
     .contactInfoFooter:visited {
         color: #FFF;
@@ -387,6 +555,66 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 33px;
+    }
+
+    /*Client Page*/
+    .font-clientName {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 50px;
+
+    }
+
+    .font-clientSubtitle {
+        color: #393939;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .textSections {
+        color: #393939;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 20px;
+    }
+
+    .footerImageInfo {
+        color: #8E8E8E;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 0.75rem;
+        line-height: 16.34px;
+    }
+
+    .questionOne {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 2.75rem;
+        line-height: 32.68px;
+    }
+
+    .confidentialBox {
+        background-color: #F2F2F2;
+        border-radius: 8px;
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+    .moreProjects {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 70px;
+    }
+    .nextProject {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 }
 
@@ -473,6 +701,7 @@ body {
         font-size: 2rem;
         line-height: 43px;
     }
+
     .contactInfoFooter:link,
     .contactInfoFooter:visited {
         color: #FFF;
@@ -534,6 +763,71 @@ body {
 
     .footerMessage {
         font-size: 1.5rem;
+    }
+
+    /*Client Page*/
+    .font-clientName {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 50px;
+
+    }
+
+    .font-clientSubtitle {
+        color: #393939;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 22px;
+        letter-spacing: 0.2em;
+    }
+
+    .textSections {
+        color: #393939;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 20px;
+    }
+
+    .footerImageInfo {
+        color: #8E8E8E;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 1.25rem;
+        line-height: 16.34px;
+    }
+
+    .questionOne {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-weight: 700;
+        font-size: 3rem !important;
+        line-height: 32.68px;
+    }
+
+    .confidentialBox {
+        background-color: #F2F2F2;
+        border-radius: 8px;
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .moreProjects {
+        font-family: 'Athelas Regular', Georgia, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .nextProject {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 45px;
+    }
+    p[class*="font-xl"]{
+        font-size: 1.25rem;
     }
 
 }
@@ -691,6 +985,19 @@ div>span[class*="font-top-resume-mainsec"]>a:visited {
 
 .subsection-navbar>li>a:link,
 .subsection-navbar>li>a:visited {
+    color: #000;
+    text-decoration: none;
+}
+a, a:link, a:visited{
+    color: #000;
+    text-decoration: none;
+
+}
+.hoverLink:hover{
+    text-decoration: underline !important;
+}
+.accessProjects,
+.accessProjects:link{
     color: #000;
     text-decoration: none;
 }

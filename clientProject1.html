@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portilio</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <link href="./css/css-reset.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container-fluid g-0 font-color-39">
+        <nav class="navbar navbar-expand-md navbar-light bottom-shadow">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand mb-0 h1 d-flex w-50 mr-auto ps-3 ps-md-5" id="navbarBrand">
+                    <img class="d-xl-none" src="./assets/navbarBrandBlueResume.svg" alt="Natalie Design">
+                    <img class="d-none d-xl-block" src="./assets/navbarBrandBlueResumeXL.svg" alt="Natalie Design">
+
+                </a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    class="navbar-toggler btn btn-link navbarLinks pe-3 pe-md-3" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="menu-svg" height="24px" viewBox="0 0 24 24" width="24px"
+                        fill="#393939">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse w-100" id="navbarNav">
+                    <ul class="navbar-nav nav ml-auto w-100 justify-content-end navbarLinks" id="navbarWeight">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 resumePage">
+                                Home <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                            </a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a href="#" class="nav-link nav-button-style ps-5 mt-4 mt-md-0 resumePage">
+                                <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block" alt="Dot" />
+                                Work <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 resumePage">
+                                About me<img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                            </a>
+                        </li>
+                        <div class="mt-8 d-block d-sm-block d-md-none d-lg-none d-xl-none subsection-navbar">
+                            <li class="ps-5 mt-2-5rem">
+                                <a><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share portfolio</a>
+                            </li>
+                            <li class="ps-5 mt-3">
+                                <a href="https://api.whatsapp.com/send?phone=5511969171767"><img
+                                        src="./assets/whatsAppIconMenu.svg" class="" alt="Arrow" /> Send me a
+                                    whatsapp</a>
+                            </li>
+                            <li class="ps-5 mt-3">
+                                <a href="mailto:lyranatalie@gmail.com"><img src="./assets/mailIconMenu.svg" class=""
+                                        alt="Arrow" /> Send a email</a>
+                            </li>
+                            <li class="ps-5 mt-3 mb-11">
+                                <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
+                                        src="./assets/linkedinIconMenu.svg" class=" " alt="Arrow" /> Linkedin</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-10 col-xl-8
+                        offset-sm-1 offset-xl-2 px-4-5 px-sm-0">
+                <a href="index.html">
+                    <img class="me-2" src="./assets/backPageArrow.svg" alt="Previous Page" />
+                </a>
+                <span class="font-top-resume-mainsec"><a href="index.html">Home</a></span>
+                <span class="font-top-resume-subsec"> → Resume</span>
+            </div>
+            <div class="offset-sm-1 offset-xl-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <img class="img-fluid g-0 d-lg-none" src="./assets/clientUberImage.png" alt="Uber Conta">
+                <img class="img-fluid g-0 d-none d-lg-block" src="./assets/clientUberImageXL.png" alt="Uber Conta">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2">
+                <img class="mb-2 me-1 mb-md-3" src="./assets/blueDotClient.svg" alt="Dot" />
+                <span class="font-clientName">Digio + Uber <img src="./assets/brazilFlagIcon.svg"
+                        alt="Brazil Flag"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-clientSubtitle ms-4">WHITELABEL</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2">
+                <p class="font-xl">Uber is a platform that allows those who drive and deliver to connect with riders,
+                    eaters, and
+                    restaurants. The company was searching for new ways to bring more benefits to their drivers in
+                    Brazil. They acquired the creation of a Uber Account partnering with Digio. </p>
+            </div>
+        </div>
+        <div class="row mt-md-3">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2">
+                <img src="./assets/investmentIcon.svg" alt="Investment">
+                <p class="textSections mb-0 ms-2">Problem</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">Build a whitelabel so Digio could sell it for Uber and other brands within a minimal
+                    time to market.
+                </p>
+            </div>
+        </div>
+        <div class="row mt-md-3">
+            <div class="col-md-1 col-xl-2 d-none d-lg-block ">
+                <div class="col-10 offset-2">
+                    <a href="https://api.whatsapp.com/send?phone=5511969171767">
+                        <img src="./assets/sideIconBlackWhatsapp.svg" alt="WhatsApp" />
+                    </a>
+                </div>
+                <div class="col-10 offset-2 mt-2">
+                    <a href="mailto:lyranatalie@gmail.com">
+                        <img src="./assets/sideIconBlackMail.svg" alt="Mail" />
+                    </a>
+                </div>
+                <div class="col-10 offset-2 mt-2">
+                    <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b">
+                        <img src="./assets/sideIconBlackLinkedin.svg" alt="Linkedin" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-10 col-xl-4 col-md-5 offset-md-1 offset-lg-0">
+                <div class="d-flex col-12">
+                    <img src="./assets/investmentIcon.svg" alt="Investment">
+                    <p class="textSections mb-0 ms-2 ms-xl-0">Challenges</p>
+                </div>
+                <div class="col-12 mt-2">
+                    <p class="font-xl">To understand the business model to build efficient and innovative experiences.
+                        2 months to build a whitelabel account.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-10 col-md-5 col-xl-4
+                        offset-1 offset-md-0">
+                <div class="d-flex col-12">
+                    <img src="./assets/eyeIcon.svg" alt="Investment">
+                    <p class="textSections mb-0 ms-2">My role</p>
+                </div>
+                <div class="col-12 mt-2">
+                    <p class="font-xl">Make a strategy to deliver the project as fast as possible. Responsible for
+                        experience,
+                        interaction
+                        and interface.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row justify-content-center">
+                <hr class="work-breakline mt-4">
+            </div>
+        </div>
+        <div class="row mt-md-4">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2">
+                <p class="textSections mb-0 me-1">Strategy</p>
+                <img src="./assets/thinkingIcon.svg" alt="Thinking">
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">We organized a design sprint to visualize the steps and create a concise strategy. We
+                    relied on one
+                    of the design thinking tool as a base to work on and lead the project: The double diamond.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2 gallery">
+                <img class="img-fluid thumbnail zoom" src="./assets/doubleDiamond.png" alt="Double Diamond">
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-5">
+                <p class="textSections mb-0 me-1">Discover</p>
+                <img class="mb-1" src="./assets/graphIcon.svg" alt="Discover">
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">Firstly, we needed to find what is important for the drivers when dealing with their
+                    earnings. So we
+                    started with 2 benchmarks: Direct competitors (driving apps) and indirect competitors (Banks and
+                    fintech).
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2 gallery">
+                <img class="img-fluid thumbnail zoom" src="./assets/mobilityAppsImage.png" alt="Mobility Apps">
+            </div>
+            <div class="d-flex col-12 mt-3 justify-content-center">
+                <p class="footerImageInfo ">Benchmark of services similar to uber</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-5 gallery">
+                <img class="img-fluid thumbnail zoom" src="./assets/bankAppsImage.png" alt="Mobility Apps">
+            </div>
+            <div class="d-flex col-12 mt-3 justify-content-center">
+                <p class="footerImageInfo ">Benchmark of bank services</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-5">
+                <p class="font-xl">Then we were able to see the must-haves for a MPV and what are the growth
+                    possibilities for the
+                    features. We proceeded with desk research as a support.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 
+            mt-5 font-color-39 questionOne text-center">
+                But what <u>more</u> can we offer to the Driver?
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-6">
+                <p class="font-xl">
+                    Anlyzing all deskresearch and benchmarking, it was possible to find a possible benefit:
+                    <strong>Instant
+                        payment for the driver.</strong>
+                </p>
+
+                <p class="font-xl">The Uber driver earned their ride values only once a week, meaning they had to wait
+                    at least 6 days
+                    to use their earns. With the idea of instant payment, as soon as the driver finished their ride, he
+                    would have access to his money and spend it as well.</p>
+
+                <p class="font-xl"> None of the products in the research showed this kind of benefit. Also, the apps
+                    didn't have an
+                    account where they could control and make transactions all in one place.</p>
+
+                <p class="font-xl">The Design team was divided into squads along with POs, Developers, and Q.A.s.</p>
+
+                <p class="font-xl"><strong>I focused on two squads: “First steps” and “Payments” where I was responsible
+                        for all
+                        acquisition
+                        and payment flows of Uber Account.</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-6">
+                <p class="textSections mb-0 ms-2 me-1 ms-md-0">Develop</p>
+                <img src="./assets/spannerIcon.svg" alt="Spanner">
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">
+                    We created all core tokens based on references taken out of the Uber app. All iconic and visual
+                    parts were also built with social media, sites, and apps references.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2-5rem gallery">
+                <img class="img-fluid thumbnail zoom" src="./assets/clientFigmaUberImage.png" alt="Component Tokens">
+            </div>
+            <div class="d-flex col-12 mt-3 justify-content-center">
+                <p class="footerImageInfo ">Components with Uber tokens</p>
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2-5rem">
+                <p class="textSections mb-0">Components ready to be coded</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">
+                    That out of the way, we could finally start to develop. Thinking about the listed features, we
+                    looked over Digio inspecting all flows to decide whether changes would be needed, based on data
+                    previously collected.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-4">
+                <p class="textSections mb-0">First steps squad</p>
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2">
+                <p class="mb-0 font-xl">
+                    It was necessary to make some adjustments on the subscription flow for some reasons:
+                </p>
+                <p class="mb-0 ms-1 font-xl">
+                    1. The process would happen in webview, differently then in Digio, that does it directly on Digio.
+                </p>
+                <p class="mb-0 ms-1 font-xl">2. As a bank and a drivers app we had some different informations to comply
+                    with
+                    the user, we needed
+                    to
+                    do some extra validations behind the scenes.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2-5rem gallery">
+                <img class="img-fluid thumbnail zoom" src="./assets/clientUberUserflowImage.png" alt="User Flow">
+            </div>
+            <div class="d-flex col-12 mt-3 justify-content-center">
+                <p class="footerImageInfo ">Uber Userflow</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">
+                    With that, we had more freedom to explore more visual resources than a pure whitelabel, and we did
+                    some thematizations.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 offset-1 offset-xl-2 mt-4">
+                <p class="textSections mb-0">Payments squad</p>
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">
+                    As we mainted most of features, nothing changeded besides dapplying the Uber tokens. But all
+                    funcionalities remained the same as Digio.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 
+                        offset-1 offset-xl-2">
+                <div id="mainSlider" class=" carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item item active" data-bs-interval="2000">
+                            <img src="assets/clientUberScreen1.png" class="d-block w-100" alt="Uber Screen 1">
+                        </div>
+                        <div class="carousel-item item" data-bs-interval="2000">
+                            <img src="assets/clientUberScreen2.png" class="d-block w-100" alt="Uber Screen 2">
+                        </div>
+                        <div class="carousel-item item" data-bs-interval="2000">
+                            <img src="assets/clientUberScreen3.png" class="d-block w-100" alt="Uber Screen 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 justify-content-end">
+                <div class="num font-xl"></div>
+                <button class="btn btn-link p-0 pe-2" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                    <img src="assets/previousSlide.svg" alt="">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn btn-link p-0 ps-2" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                    <img src="assets/nextSlide.svg" alt="">
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-4">
+                <p class="textSections mb-0 me-1">Deliver </p>
+                <img src="./assets/partyPopper.svg" alt="Party Popper">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 col-xl-8 offset-1 offset-xl-2 mt-2">
+                <p class="font-xl">
+                    Everything ordered on the design aspect (flows corrected, interfaces ready...) we sent user flows to
+                    tag and started to organize a user test for future improvements and study possibilities.
+                </p>
+                <p class="font-xl">
+                    QA testes were made and bugs and inconsistencies found were appointed in Jira. After every
+                    correction was made, we tested again for a double-check.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-10 col-xl-8 
+                        offset-1 offset-xl-2 mt-4">
+                <p class="mb-0 font-xl">
+                    The app is in Beta and counts with <strong>over 10.000 downloads.</strong> Check out
+                    some news:</p>
+            </div>
+        </div>
+        <div class="row mt-md-2">
+            <div class="col-10 col-xl-2 offset-1 offset-xl-2 mt-3 referencesLink">
+                <a target=”_blank” href="https://www.uber.com/pt-BR/newsroom/uber-conta/">
+                    <p class="font-xl"><img src="assets/chain45degIcon.svg" alt="Link">Uber NewsRoom</p>
+                </a>
+                <a target=”_blank” href="https://www.ubercontabrasil.com.br/">
+                    <p class="font-xl"><img src="assets/chain45degIcon.svg" alt="Link">Uber account landing page</p>
+                </a>
+                <a target=”_blank”
+                    href="https://canaltech.com.br/apps/uber-traz-conta-digital-e-plano-de-dados-moveis-para-o-brasil-178145/">
+                    <p class="font-xl"><img src="assets/chain45degIcon.svg" alt="Link">Canaltech</p>
+                </a>
+                <a target=”_blank”
+                    href="https://www.istoedinheiro.com.br/uber-fecha-parceria-com-o-digio-e-anuncia-conta-bancaria-para-motoristas/">
+                    <p class="font-xl"><img src="assets/chain45degIcon.svg" alt="Link">Terra</p>
+                </a>
+                <a target=”_blank”
+                    href="https://olhardigital.com.br/2021/01/29/videos/uber-lanca-conta-digital-exclusiva-para-motoristas-no-brasil-2/">
+                    <p class="font-xl"><img src="assets/chain45degIcon.svg" alt="Link">Olhar Digital</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 col-xl-8 offset-2 offset-xl-2
+            mt-6">
+                <div class="row confidentialBox">
+                    <div class="d-flex col-12 p-3">
+                        <img class="align-self-start me-2" src="./assets/warningYellowIcon.svg" alt="Warning">
+                        To comply with my non-disclosure agreement, I have omitted confidential information in this
+                        project.
+                        All information is my own opinion and does not necessarily reflect the views or actions of
+                        Digio/Uber.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row d-none d-md-block mt-md-5 mt-lg-7" style="background-color: #F2F2F2;">
+            <div class="col-md-10 col-lg-8 offset-md-1 offset-lg-2 pt-md-5 moreProjects">
+                <span class="">Check out more projects</span>
+            </div>
+            <div class="row mt-md-5 mt-xl-8 pb-10">
+                <div class="d-flex col-md-5 col-lg-4 offset-md-1 offset-lg-2">
+                    <div class="col-md-2 align-self-center">
+                        <img src="./assets/previousArrowBlack.svg" alt="Previous Project">
+                    </div>
+                    <div class="col-md-8 ms-md-5">
+                        <div class="col-md-12">
+                            <p class="nextProject">Title of project
+                                verrryyyy cool</p>
+                        </div>
+                        <div class="col-md-12">
+                            CASE STUDY
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex col-md-5 col-lg-4 justify-content-end">
+                    <div class="col-md-8">
+                        <div class="col-lg-12">
+                            <p class="nextProject">Title of project
+                                verrryyyy cool</p>
+                        </div>
+                        <div class="col-md-12"> CASE STUDY</div>
+                    </div>
+                    <div class="col-md-2 align-self-center">
+                        <img src="./assets/nextArrowBlack.svg" alt="Next Project">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="background-footer pb-5 mt-6 mt-md-0 px-5">
+        <div class="row">
+            <div class="d-flex col-12 col-sm-10 col-md-8 col-lg-8 col-xl-8
+                            offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
+                            dihya mt-6">
+                <p>Do I have your attention?</p>
+            </div>
+            <div class="offset-sm-1 offset-md-7 offset-lg-2 offset-xl-2"></div>
+        </div>
+        <div class="row">
+            <div class="d-flex col-12 col-sm-10 col-md-4 col-lg-8 col-xl-8
+                            offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
+                            hitMeUp">
+                <p>Hit me up</p>
+            </div>
+            <div class="offset-sm-1 offset-md-7 offset-lg-2 offset-xl-2"></div>
+        </div>
+
+        <div class="row pb-6 mt-3">
+            <div class="col-12 col-sm-10 col-md-4 col-lg-4 col-xl-4 
+                            offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2 align-self-center">
+                <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
+                                justify-content-between">
+                    <a href="https://api.whatsapp.com/send?phone=5511969171767">
+                        <img src="./assets/whatsAppIcon.svg" class="mt-01" alt="WhatsApp" />
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5511969171767"
+                        class="mb-0 pb-1 d-flex contactInfoFooter">
+                        90828-39239
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5511969171767">
+                        <img src="./assets/arrowIcon.svg" class="mt-1" alt="Call WhatsApp" />
+                    </a>
+                </div>
+                <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <hr class="contacts-breakline mt-2 mt-sm-2">
+                </div>
+                <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
+                                justify-content-between">
+                    <a href="mailto:lyranatalie@gmail.com">
+                        <img src="./assets/mailIcon.svg" class="mt-01" alt="WhatsApp" />
+                    </a>
+                    <a href="mailto:lyranatalie@gmail.com" class="mb-0 pb-1 d-flex contactInfoFooter">
+                        lyranatalie@gmail.com
+                    </a>
+                    <a href="mailto:lyranatalie@gmail.com">
+                        <img src="./assets/arrowIcon.svg" class="mt-1" alt="Send Email" />
+                    </a>
+                </div>
+                <div class=" col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex">
+                    <hr class="contacts-breakline mt-2 mt-sm-2">
+                </div>
+                <div class="d-flex col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 
+                                justify-content-between">
+                    <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b">
+                        <img src="./assets/linkedInIcon.svg" class="mt-01" alt="WhatsApp" />
+                    </a>
+                    <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b"
+                        class="mb-0 pb-1 d-flex  contactInfoFooter">
+                        Natalie Dafonte
+                    </a>
+                    <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b">
+                        <img src="./assets/arrowIcon.svg" class="mt-1" alt="Linkedin" />
+                    </a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex">
+                    <hr class="contacts-breakline mt-2 mt-sm-2">
+                </div>
+            </div>
+            <div class="d-flex col-10 col-sm-12 col-md-6 col-lg-4 col-xl-4 
+                            offset-1 offset-sm-1 offset-md-1  offset-lg-1 offset-xl-1
+                            pb-4">
+                <div
+                    class="d-flex col-sm-5 col-md-3 col-lg-3 col-xl-8 justify-content-sm-end align-self-end footerMessage">
+                    You have<br class="d-md-none"> reached the<br class="d-md-none"> footer,<br
+                        class="d-none d-md-block"> thanks for<br class="d-md-none"> stopping by 😊
+                </div>
+                <div class="col-sm-5 col-md-2 col-lg-2 col-xl-2 align-self-start">
+                    <img src="./assets/legImage.svg" alt="A leg Image">
+                </div>
+                <div class="offset-sm-1"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/custom.js"></script>
+
+</html>
