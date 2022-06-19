@@ -14,9 +14,9 @@
 
 <body>
     <div class="container-fluid g-0">
-        <nav class="navbar navbar-expand-md navbar-light bottom-shadow">
+        <nav class="navbar navbar-expand-md navbar-light bg-white bottom-shadow fixed-top">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand mb-0 h1 d-flex w-50 mr-auto ps-3 ps-md-5" id="navbarBrand">
+                <a href="index.html" class="navbar-brand mb-0 h1 d-flex w-50 mr-auto ps-3 ps-md-5" id="navbarBrand">
                     <img class="d-xl-none" src="./assets/navbarBrandBlueResume.svg" alt="Natalie Design">
                     <img class="d-none d-xl-block" src="./assets/navbarBrandBlueResumeXL.svg" alt="Natalie Design">
 
@@ -32,38 +32,44 @@
                 </button>
                 <div class="collapse navbar-collapse w-100" id="navbarNav">
                     <ul class="navbar-nav nav ml-auto w-100 justify-content-end navbarLinks" id="navbarWeight">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 resumePage">
-                                Home <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <li class="nav-item">
-
-                            <a href="#" class="nav-link nav-button-style ps-5 mt-4 mt-md-0 resumePage">
-                                <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block" alt="Dot" />
-                                Work <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 resumePage">
-                                About me<img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <div class="mt-8 d-block d-sm-block d-md-none d-lg-none d-xl-none subsection-navbar">
-                            <li class="ps-5 mt-2-5rem">
-                                <a><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share portfolio</a>
+                        <div class="d-none d-md-inline-flex">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 resumePage">
+                                    Home <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
                             </li>
-                            <li class="ps-5 mt-3">
-                                <a href="https://api.whatsapp.com/send?phone=5511969171767"><img
+                            <li class="nav-item">
+
+                                <a href="#" onClick="window.location.href='index.html#scrollDiv'"
+                                    class="nav-link nav-button-style ps-5 mt-4 mt-md-0 resumePage">
+                                    <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block"
+                                        alt="Dot" />
+                                    Work <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="scrolldiv('background-footer')"
+                                    class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 resumePage">
+                                    About me<img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
+                            </li>
+                        </div>
+                        <div class="d-block d-md-none d-lg-none d-xl-none" style="height: 100vh;">
+                            <li class="ps-5 mt-2-5rem">
+                                <a target=”_blank”><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share
+                                    portfolio</a>
+                            </li>
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="https://api.whatsapp.com/send?phone=5511969171767"><img
                                         src="./assets/whatsAppIconMenu.svg" class="" alt="Arrow" /> Send me a
                                     whatsapp</a>
                             </li>
-                            <li class="ps-5 mt-3">
-                                <a href="mailto:lyranatalie@gmail.com"><img src="./assets/mailIconMenu.svg" class=""
-                                        alt="Arrow" /> Send a email</a>
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="mailto:lyranatalie@gmail.com"><img
+                                        src="./assets/mailIconMenu.svg" class="" alt="Arrow" /> Send a email</a>
                             </li>
-                            <li class="ps-5 mt-3 mb-11">
-                                <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
                                         src="./assets/linkedinIconMenu.svg" class=" " alt="Arrow" /> Linkedin</a>
                             </li>
                         </div>
@@ -71,7 +77,7 @@
                 </div>
             </div>
         </nav>
-        <div class="row mt-5">
+        <div class="row mt-8">
             <div class="col-12 col-sm-10 col-xl-8
                         offset-sm-1 offset-xl-2 px-4-5 px-sm-0">
                 <a href="index.html">
@@ -374,7 +380,7 @@
         </div>
     </div>
 
-    <div class="background-footer mt-6 px-5">
+    <div class="background-footer mt-6 px-5" id="background-footer">
         <div class="row justify-content-center">
             <div class="col-12 d-flex justify-content-center mt-6">
                 <img src="./assets/purpleDot.svg" class="d-md-none pe-1" alt="Purple Dot" />

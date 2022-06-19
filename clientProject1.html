@@ -7,6 +7,7 @@
     <title>Portilio</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script src="./js/custom.js"></script>
     <link href="./css/css-reset.css" rel="stylesheet">
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/custom.css" rel="stylesheet">
@@ -16,9 +17,9 @@
 
 <body>
     <div class="container-fluid g-0 font-color-39">
-        <nav class="navbar navbar-expand-md navbar-light bottom-shadow">
+        <nav class="navbar navbar-expand-md navbar-light bg-white bottom-shadow fixed-top">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand mb-0 h1 d-flex w-50 mr-auto ps-3 ps-md-5" id="navbarBrand">
+                <a href="index.html" class="navbar-brand mb-0 h1 d-flex w-50 mr-auto ps-3 ps-md-5" id="navbarBrand">
                     <img class="d-xl-none" src="./assets/navbarBrandBlueResume.svg" alt="Natalie Design">
                     <img class="d-none d-xl-block" src="./assets/navbarBrandBlueResumeXL.svg" alt="Natalie Design">
 
@@ -34,38 +35,44 @@
                 </button>
                 <div class="collapse navbar-collapse w-100" id="navbarNav">
                     <ul class="navbar-nav nav ml-auto w-100 justify-content-end navbarLinks" id="navbarWeight">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 resumePage">
-                                Home <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <li class="nav-item">
-
-                            <a href="#" class="nav-link nav-button-style ps-5 mt-4 mt-md-0 resumePage">
-                                <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block" alt="Dot" />
-                                Work <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 resumePage">
-                                About me<img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
-                            </a>
-                        </li>
-                        <div class="mt-8 d-block d-sm-block d-md-none d-lg-none d-xl-none subsection-navbar">
-                            <li class="ps-5 mt-2-5rem">
-                                <a><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share portfolio</a>
+                        <div class="d-none d-md-inline-flex">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link nav-button-style ps-5 mt-2rem mt-md-0 resumePage">
+                                    Home <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
                             </li>
-                            <li class="ps-5 mt-3">
-                                <a href="https://api.whatsapp.com/send?phone=5511969171767"><img
+                            <li class="nav-item">
+
+                                <a href="#" onClick="window.location.href='index.html#scrollDiv'"
+                                    class="nav-link nav-button-style ps-5 mt-4 mt-md-0 resumePage">
+                                    <img src="./assets/blueDot.svg" class="d-none d-sm-none d-md-inline-block"
+                                        alt="Dot" />
+                                    Work <img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" onclick="scrolldiv('background-footer')"
+                                    class="nav-link nav-button-style ps-5 pe-md-5 mt-4 mt-md-0 resumePage">
+                                    About me<img src="./assets/arrowToRight.svg" class="d-md-none" alt="Arrow" />
+                                </a>
+                            </li>
+                        </div>
+                        <div class="d-block d-md-none d-lg-none d-xl-none" style="height: 100vh;">
+                            <li class="ps-5 mt-2-5rem">
+                                <a target=”_blank”><img src="./assets/shareIcon.svg" class="" alt="Arrow" /> Share
+                                    portfolio</a>
+                            </li>
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="https://api.whatsapp.com/send?phone=5511969171767"><img
                                         src="./assets/whatsAppIconMenu.svg" class="" alt="Arrow" /> Send me a
                                     whatsapp</a>
                             </li>
-                            <li class="ps-5 mt-3">
-                                <a href="mailto:lyranatalie@gmail.com"><img src="./assets/mailIconMenu.svg" class=""
-                                        alt="Arrow" /> Send a email</a>
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="mailto:lyranatalie@gmail.com"><img
+                                        src="./assets/mailIconMenu.svg" class="" alt="Arrow" /> Send a email</a>
                             </li>
-                            <li class="ps-5 mt-3 mb-11">
-                                <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
+                            <li class="ps-5 mt-4">
+                                <a target=”_blank” href="https://linkedin.com/in/natalie-dafonte-8225aa14b"><img
                                         src="./assets/linkedinIconMenu.svg" class=" " alt="Arrow" /> Linkedin</a>
                             </li>
                         </div>
@@ -73,7 +80,8 @@
                 </div>
             </div>
         </nav>
-        <div class="row mt-5">
+        <img src="./assets/backToTop.svg" onclick="topFunction()" id="myBtn" alt="Go To Top">
+        <div class="row mt-8">
             <div class="col-12 col-sm-10 col-xl-8
                         offset-sm-1 offset-xl-2 px-4-5 px-sm-0">
                 <a href="index.html">
@@ -129,27 +137,10 @@
             </div>
         </div>
         <div class="row mt-md-3">
-            <div class="col-md-1 col-xl-2 d-none d-lg-block ">
-                <div class="col-10 offset-2">
-                    <a href="https://api.whatsapp.com/send?phone=5511969171767">
-                        <img src="./assets/sideIconBlackWhatsapp.svg" alt="WhatsApp" />
-                    </a>
-                </div>
-                <div class="col-10 offset-2 mt-2">
-                    <a href="mailto:lyranatalie@gmail.com">
-                        <img src="./assets/sideIconBlackMail.svg" alt="Mail" />
-                    </a>
-                </div>
-                <div class="col-10 offset-2 mt-2">
-                    <a href="https://linkedin.com/in/natalie-dafonte-8225aa14b">
-                        <img src="./assets/sideIconBlackLinkedin.svg" alt="Linkedin" />
-                    </a>
-                </div>
-            </div>
-            <div class="col-10 col-xl-4 col-md-5 offset-1 offset-md-1 offset-lg-0">
+            <div class="col-10 col-xl-4 col-md-5 offset-1 offset-md-1 offset-lg-2">
                 <div class="d-flex col-12">
                     <img src="./assets/investmentIcon.svg" alt="Investment">
-                    <p class="textSections mb-0 ms-2 ms-xl-0">Challenges</p>
+                    <p class="textSections mb-0 ms-2">Challenges</p>
                 </div>
                 <div class="col-12 mt-2">
                     <p class="font-xl">To understand the business model to build efficient and innovative experiences.
@@ -508,7 +499,7 @@
 
     </div>
     </div>
-    <div class="background-footer pb-5 mt-6 mt-md-0 px-5">
+    <div class="background-footer pb-5 mt-6 mt-md-0 px-5" id="background-footer">
         <div class="row">
             <div class="d-flex col-12 col-sm-10 col-md-8 col-lg-8 col-xl-8
                             offset-sm-1 offset-md-1 offset-lg-2 offset-xl-2
@@ -593,7 +584,6 @@
         </div>
     </div>
 </body>
-
-<script src="./js/custom.js"></script>
+<script src="./js/scrollTop.js"></script>
 
 </html>

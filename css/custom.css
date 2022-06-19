@@ -244,6 +244,32 @@ add browser prefixes**/
         max-width: 100%;
         height: 100%;
     }
+
+    div.background-top {
+        background-image: url('../assets/background-top-mobile.png');
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        min-height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+
+    }
+
+    div.content {
+        position: absolute;
+        width: 98%;
+        min-height: 800px;
+        top: 0px;
+        left: 0px;
+
+    }
+
 }
 
 /*COL-MD*/
@@ -252,11 +278,8 @@ add browser prefixes**/
         background: none;
     }
 
+    ul>li>a[class*="resumePage"],
     ul>li>a[class*="indexPage"] {
-        color: #FFF !important;
-    }
-
-    ul>li>a[class*="resumePage"] {
         color: #393939 !important;
     }
 
@@ -502,16 +525,41 @@ add browser prefixes**/
         max-width: 100%;
         height: 100%;
     }
+
+    div.background-top {
+        background-image: url('../assets/background-top.png');
+        float: left;
+        width: 100%;
+        height: 100vh;
+        max-width: 100%;
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%, cover;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+
+    }
+
+    div.content {
+        position: absolute;
+        width: 98%;
+        min-height: 700px;
+        top: 0;
+        left: 0;
+
+    }
+
 }
 
 /*COL-LG*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    ul>li>a[class*="indexPage"] {
-        color: #FFF !important;
-    }
 
-    ul>li>a[class*="resumePage"] {
+    ul>li>a[class*="resumePage"],
+    ul>li>a[class*="indexPage"] {
         color: #393939 !important;
     }
 
@@ -726,24 +774,47 @@ add browser prefixes**/
         max-width: 100%;
         height: 100%;
     }
+
+    div.background-top {
+        background-image: url('../assets/background-top.png');
+        object-fit: cover;
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        min-height: 700px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+
+    }
+
+    div.content {
+        position: absolute;
+        width: 98%;
+        min-height: 800px;
+
+    }
+
 }
 
 /*COL-XL*/
 @media (min-width: 1200px) {
-    ul>li>a[class*="indexPage"] {
-        color: #FFF !important;
-    }
 
-    ul>li>a[class*="resumePage"] {
+    ul>li>a[class*="resumePage"],
+    ul>li>a[class*="indexPage"] {
         color: #393939 !important;
     }
 
     .intro-top {
-        font-size: 2.6rem;
+        font-size: 2.0rem;
     }
 
     .font-top {
-        font-size: 3.9rem;
+        font-size: 3.5rem;
     }
 
     .button-resume {
@@ -752,7 +823,7 @@ add browser prefixes**/
 
     .nav-button-style {
         font-weight: 400;
-        font-size: 1.37rem;
+        font-size: 1rem;
     }
 
     .work-intro {
@@ -777,7 +848,7 @@ add browser prefixes**/
     }
 
     .aboutMe-intro {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 400;
         line-height: 32px;
     }
@@ -793,8 +864,8 @@ add browser prefixes**/
     .dihya,
     .hitMeUp {
         font-family: 'Athelas Regular', Georgia, serif;
-        font-size: 3.8rem;
-        line-height: 69.88px;
+        font-size: 3rem;
+        line-height: 60px;
     }
 
     .dihya {
@@ -808,7 +879,7 @@ add browser prefixes**/
 
     .contactInfoFooter {
         font-weight: 400;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 43px;
     }
 
@@ -817,7 +888,7 @@ add browser prefixes**/
         color: #FFF;
         text-decoration: none;
         font-weight: 400;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 43px;
     }
 
@@ -830,49 +901,49 @@ add browser prefixes**/
     .font-resume {
         font-family: 'Athelas Regular', Georgia, serif;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 70px;
     }
 
     .font-work-xp {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 42px;
     }
 
     .previous-job-title {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 42px;
     }
 
     .previous-job-subtitle {
         font-weight: 400;
         color: #393939;
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 42px;
     }
 
     .previous-job-company {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 42px;
     }
 
     .previous-job-description {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 32.68px;
     }
 
     .previous-college-description {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 32.68px;
     }
 
     .footerMessage {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     /*Client Page*/
@@ -977,6 +1048,32 @@ add browser prefixes**/
         height: 100%;
     }
 
+    div.background-top {
+        background-image: url('../assets/background-top.png');
+        float: left;
+        width: 100%;
+        max-width: 100%;
+        min-height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+
+    }
+
+    div.content {
+        position: absolute;
+        width: 98%;
+        min-height: 800px;
+        top: 0px;
+        left: 0px;
+
+    }
+
+
 }
 
 .subsection-navbar {
@@ -1032,21 +1129,6 @@ add browser prefixes**/
     text-align: justify;
     padding: 35px 35px;
 }
-
-.background-top {
-    height: 800px;
-    background: url('../assets/background-top.png');
-    backdrop-filter: blur(5px);
-}
-
-.blur {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(100px);
-    height: 800px;
-    width: 100%;
-}
-
-
 
 .font-top-resume-mainsec {
     color: #000;
@@ -1152,4 +1234,13 @@ a:visited {
 .accessProjects:link {
     color: #000;
     text-decoration: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
 }
