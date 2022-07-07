@@ -244,30 +244,29 @@ add browser prefixes**/
         max-width: 100%;
         height: 100%;
     }
+    div.mainTopBackground{
+        height: 100px;
+    }
+    #backgroundTopHeight {
+        height: 850px;
+    }
 
+ 
     div.background-top {
-        background-image: url('../assets/background-top-mobile.png');
         float: left;
         width: 100%;
-        max-width: 100%;
-        min-height: 800px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
 
     }
 
     div.content {
+        background-image: linear-gradient(269.76deg, rgba(0, 0, 0, 0.3) 1.57%, rgba(121, 121, 121, 0) 103.73%);
         position: absolute;
-        width: 98%;
-        min-height: 800px;
+        width: 100%;
+        max-width: 100%;
+        min-height: 803px;
         top: 0px;
         left: 0px;
-
     }
 
 }
@@ -526,31 +525,31 @@ add browser prefixes**/
         height: 100%;
     }
 
+    div.mainTopBackground{
+        height: 750px;
+    }
+    #backgroundTopHeight {
+        height: 100vh;
+    }
+
+ 
     div.background-top {
-        background-image: url('../assets/background-top.png');
         float: left;
         width: 100%;
-        height: 100vh;
-        max-width: 100%;
-        min-height: 700px;
         background-repeat: no-repeat;
-        background-size: 100%, 100%, cover;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
 
     }
 
     div.content {
+        background-image: linear-gradient(269.76deg, rgba(0, 0, 0, 0.3) 1.57%, rgba(121, 121, 121, 0) 103.73%);
         position: absolute;
-        width: 98%;
-        min-height: 700px;
-        top: 0;
-        left: 0;
-
+        width: 100%;
+        max-width: 100%;
+        min-height: 714px;
+        top: 0px;
+        left: 0px;
     }
+
 
 }
 
@@ -775,29 +774,31 @@ add browser prefixes**/
         height: 100%;
     }
 
+    div.mainTopBackground{
+        height: 750px;
+    }
+    #backgroundTopHeight {
+        height: 100vh;
+    }
+
+ 
     div.background-top {
-        background-image: url('../assets/background-top.png');
-        object-fit: cover;
         float: left;
         width: 100%;
-        max-width: 100%;
-        min-height: 700px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
 
     }
 
     div.content {
+        background-image: linear-gradient(269.76deg, rgba(0, 0, 0, 0.3) 1.57%, rgba(121, 121, 121, 0) 103.73%);
         position: absolute;
-        width: 98%;
-        min-height: 800px;
-
+        width: 100%;
+        max-width: 100%;
+        min-height: 714px;
+        top: 0px;
+        left: 0px;
     }
+
 
 }
 
@@ -1048,33 +1049,35 @@ add browser prefixes**/
         height: 100%;
     }
 
+    div.mainTopBackground{
+        height: 900px;
+    }
+    #backgroundTopHeight {
+        width: 100%;
+        height: 100vh;
+    }
+
+ 
     div.background-top {
-        background-image: url('../assets/background-top.png');
         float: left;
         width: 100%;
-        max-width: 100%;
-        min-height: 800px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
 
     }
 
     div.content {
+        background-image: linear-gradient(269.76deg, rgba(0, 0, 0, 0.3) 1.57%, rgba(121, 121, 121, 0) 103.73%);
         position: absolute;
-        width: 98%;
-        min-height: 800px;
+        width: 100%;
+        max-width: 100%;
+        min-height: 715px;
         top: 0px;
         left: 0px;
-
     }
 
 
 }
+
 
 .subsection-navbar {
     background-color: #F7F7F7;
@@ -1212,12 +1215,7 @@ div>span[class*="font-top-resume-mainsec"]>a:visited {
     color: #000;
 }
 
-.subsection-navbar>li>a:link,
-.subsection-navbar>li>a:visited {
-    color: #000;
-    text-decoration: none;
-}
-
+    
 a,
 a:link,
 a:visited {
@@ -1243,4 +1241,8 @@ a:visited {
     right: 30px;
     z-index: 99;
     cursor: pointer;
+}
+
+.obj-cover {
+    object-fit: cover;
 }
