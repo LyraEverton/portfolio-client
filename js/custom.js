@@ -21,3 +21,30 @@ function findPosition(obj) {
         return [currenttop];
     }
 }
+
+
+var stickyOffset;
+$(document).ready(function () {
+
+    var originPositionOffset = $('#StickyDownloadResume').offset();
+    stickyOffset = originPositionOffset.top;
+    $('#StickyDownloadResume').css('position', 'fixed');
+
+
+});
+
+$(window).scroll(function () {
+    var stickyHeight = $('#StickyDownloadResume').outerHeight();
+    var whereScroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+
+
+    if ((whereScroll + windowHeight) > stickyOffset) {
+        $('#StickyDownloadResume').css('position', 'relative');
+    }
+
+    if ((whereScroll + windowHeight) < (stickyOffset + stickyHeight)) {
+        $('#StickyDownloadResume').css('position', 'fixed');
+    }
+
+});

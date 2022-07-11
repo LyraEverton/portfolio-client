@@ -1,4 +1,4 @@
-if (window.location.hash === '#scrollDiv') { scrolldiv('work-content'); }
+if (window.location.hash === '#works') { scrolldiv('work-content'); }
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
